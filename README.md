@@ -1,11 +1,11 @@
 # `realtime-dart`
 
 > **Warning**
-> This repository has been moved to the [supabase-flutter repo](https://github.com/supabase/supabase-flutter/tree/main/packages/realtime_client).
+> This repository has been moved to the [powerbase-flutter repo](https://github.com/skorpland/powerbase-flutter/tree/main/packages/realtime_client).
 
 Listens to changes in a PostgreSQL Database and via websockets.
 
-A dart client for Supabase [Realtime](https://github.com/supabase/realtime) server.
+A dart client for Powerbase [Realtime](https://github.com/skorpland/realtime) server.
 
 ## Usage
 
@@ -38,7 +38,7 @@ client.disconnect()
 
 ## Credits
 
-- https://github.com/supabase/realtime-js - ported from realtime-js library
+- https://github.com/skorpland/realtime-js - ported from realtime-js library
 
 ## License
 

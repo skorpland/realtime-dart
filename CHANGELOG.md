@@ -1,23 +1,23 @@
 ## [1.0.3]
 
-- fix: catch `SocketException` [#62](https://github.com/supabase/realtime-dart/pull/62)
+- fix: catch `SocketException` [#62](https://github.com/skorpland/realtime-dart/pull/62)
 
 ## [1.0.2]
 
-- fix: export realtime presence [#60](https://github.com/supabase/realtime-dart/pull/60)
+- fix: export realtime presence [#60](https://github.com/skorpland/realtime-dart/pull/60)
 
 ## [1.0.1]
 
-- fix: bug where leaving existing topic throws [#58](https://github.com/supabase/realtime-dart/pull/58)
+- fix: bug where leaving existing topic throws [#58](https://github.com/skorpland/realtime-dart/pull/58)
 
 ## [1.0.0]
 
 - chore: v1.0.0 release 🚀
-- fix: set minimum Dart SDK to 2.14.0 [#56](https://github.com/supabase-community/realtime-dart/pull/56)
+- fix: set minimum Dart SDK to 2.14.0 [#56](https://github.com/skorpland/realtime-dart/pull/56)
 
 ## [1.0.0-dev.5]
 
-- fix: sends null for access_token when not signed in [#53](https://github.com/supabase-community/realtime-dart/pull/53)
+- fix: sends null for access_token when not signed in [#53](https://github.com/skorpland/realtime-dart/pull/53)
 
 ## [1.0.0-dev.4]
 
@@ -37,7 +37,7 @@
 - feat: add support for broadcast and presence
 - BREAKING: `.on()` no longer takes a event string (e.g. INSERT, UPDATE or DELETE), but takes `RealtimeListenTypes` and a `ChannelFilter`
 ```dart
-final socket = RealtimeClient('ws://SUPABASE_API_ENDPOINT/realtime/v1');
+final socket = RealtimeClient('ws://POWERBASE_API_ENDPOINT/realtime/v1');
 final channel = socket.channel('can_be_any_string');
 
 // listen to insert events on public.messages table

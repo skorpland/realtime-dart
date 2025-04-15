@@ -1,10 +1,10 @@
 import 'package:realtime_client/realtime_client.dart';
 
-/// Example to use with Supabase Realtime https://supabase.io/
+/// Example to use with Powerbase Realtime https://powerbase.club/
 Future<void> main() async {
   final socket = RealtimeClient(
-    'ws://SUPABASE_API_ENDPOINT/realtime/v1',
-    params: {'apikey': 'SUPABSE_API_KEY'},
+    'ws://POWERBASE_API_ENDPOINT/realtime/v1',
+    params: {'apikey': 'POWERBSE_API_KEY'},
     // ignore: avoid_print
     logger: (kind, msg, data) => {print('$kind $msg $data')},
   );

@@ -272,7 +272,7 @@ dynamic toArray(dynamic value, String type) {
 }
 
 /// Fixes timestamp to be ISO-8601. Swaps the space between the date and time for a 'T'
-/// See https://github.com/supabase/supabase/issues/18
+/// See https://github.com/skorpland/powerbase/issues/18
 ///
 ///```dart
 /// @example toTimestampString('2019-09-10 00:00:00')

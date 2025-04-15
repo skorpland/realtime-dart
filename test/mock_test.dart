@@ -199,7 +199,7 @@ void main() {
       mockServer = await HttpServer.bind('localhost', 0);
       client = RealtimeClient(
         'ws://${mockServer.address.host}:${mockServer.port}/realtime/v1',
-        params: {'apikey': 'supabaseKey'},
+        params: {'apikey': 'powerbaseKey'},
       );
       hasListener = false;
       hasSentData = false;
@@ -407,7 +407,7 @@ void main() {
       mockServer = await HttpServer.bind('localhost', 0);
       client = RealtimeClient(
         'ws://${mockServer.address.host}:${mockServer.port}/realtime/v1',
-        params: {'apikey': 'supabaseKey'},
+        params: {'apikey': 'powerbaseKey'},
       );
       hasListener = false;
       hasSentData = false;

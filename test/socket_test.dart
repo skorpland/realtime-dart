@@ -75,7 +75,7 @@ void main() {
         heartbeatIntervalMs: 60000,
         // ignore: avoid_print
         logger: (kind, msg, data) => print('[$kind] $msg $data'),
-        headers: {'X-Client-Info': 'supabase-dart/0.0.0'},
+        headers: {'X-Client-Info': 'powerbase-dart/0.0.0'},
       );
       expect(socket.channels.length, 0);
       expect(socket.sendBuffer.length, 0);
@@ -98,7 +98,7 @@ void main() {
         ),
         true,
       );
-      expect(socket.headers['X-Client-Info'], 'supabase-dart/0.0.0');
+      expect(socket.headers['X-Client-Info'], 'powerbase-dart/0.0.0');
     });
   });
 
